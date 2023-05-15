@@ -17,18 +17,34 @@ public:
 
     mahasiswa(string pnama) :nama(pnama) { setID(); }
 };
-int main()
-{
-    std::cout << "Hello World!\n";
+
+int mahasiswa::nim = 0;
+
+void mahasiswa::setID() {
+    id = ++nim;
 }
 
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
+void mahasiswa::printAll() {
+    cout << "ID     = " << id << endl;
+    cout << "Nama   = " << nama << endl;
+    cout << endl;
+}
+int main()
+{
+    mahasiswa mhs1("Sri Dadi");
+    mahasiswa mhs2("Budi Jatmiko");
+    mahasiswa::setNim(9); //Mengakses NIM melalui static member
+    mahasiswa mhs3("Andi Janu");
+    mahasiswa mhs4("Joko Wahono");
 
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
+    mhs1.printAll();
+    mhs2.printAll();
+    mhs3.printAll();
+    mhs4.printAll();
+
+    cout << "Akses dari luar object = " << mahasiswa::getNim() << endl; //
+    system("pause");
+
+    return 0;
+}
+

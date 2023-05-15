@@ -25,7 +25,6 @@ void mahasiswa::printAll() {
 }
 int main()
 {
-    mhs1.nim = 100;
     mahasiswa mhs1("Lia Kurnia");
     mahasiswa mhs2("Asroni");
     mahasiswa mhs3("Andi Kurniawan");
