@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chainfunction_178", "Chainf
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Destructor_178", "Destructor_178\Destructor_178.vcxproj", "{E67084E7-60E9-4D24-8FF4-77258F9E61E8}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Konstruktor_178", "Konstruktor_178\Konstruktor_178.vcxproj", "{2065DD60-6781-4D31-A8C7-92D713EA87F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{E67084E7-60E9-4D24-8FF4-77258F9E61E8}.Release|x64.Build.0 = Release|x64
 		{E67084E7-60E9-4D24-8FF4-77258F9E61E8}.Release|x86.ActiveCfg = Release|Win32
 		{E67084E7-60E9-4D24-8FF4-77258F9E61E8}.Release|x86.Build.0 = Release|Win32
+		{2065DD60-6781-4D31-A8C7-92D713EA87F6}.Debug|x64.ActiveCfg = Debug|x64
+		{2065DD60-6781-4D31-A8C7-92D713EA87F6}.Debug|x64.Build.0 = Debug|x64
+		{2065DD60-6781-4D31-A8C7-92D713EA87F6}.Debug|x86.ActiveCfg = Debug|Win32
+		{2065DD60-6781-4D31-A8C7-92D713EA87F6}.Debug|x86.Build.0 = Debug|Win32
+		{2065DD60-6781-4D31-A8C7-92D713EA87F6}.Release|x64.ActiveCfg = Release|x64
+		{2065DD60-6781-4D31-A8C7-92D713EA87F6}.Release|x64.Build.0 = Release|x64
+		{2065DD60-6781-4D31-A8C7-92D713EA87F6}.Release|x86.ActiveCfg = Release|Win32
+		{2065DD60-6781-4D31-A8C7-92D713EA87F6}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
