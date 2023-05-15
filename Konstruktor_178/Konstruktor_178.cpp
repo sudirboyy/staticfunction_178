@@ -14,6 +14,23 @@ public:
 	void cetak();
 };
 
+mahasiswa::mahasiswa() {
+	nim = 0;
+	nama = "";
+}
+
+mahasiswa::mahasiswa(int iNim) {
+	nim = iNim;
+}
+
+mahasiswa::mahasiswa(string iNama) {
+	nama = iNama;
+}
+
+mahasiswa::mahasiswa(int iNim, string iNama) {
+	nim = iNim;
+	nama = iNama;
+}
 int main()
 {
     std::cout << "Hello World!\n";
